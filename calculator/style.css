@@ -1,0 +1,171 @@
+/* Базовые стили */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(250, 250, 250);
+}
+
+/* Стиль для калькулятора */
+.calculator {
+  background: url('img/sea.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 500px; /* Увеличен размер калькулятора */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Стиль для результата */
+.result {
+  width: 220px;
+  height: 50px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  border-radius: 10px;
+  background: rgba(20, 135, 201, 0.5); /* Полупрозрачный фон */
+  text-align: right;
+  color: rgb(250, 250, 250);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: lighter; /* Тоньше */
+  font-family: 'Times New Roman', serif, monospace;
+}
+
+/* Стиль для кнопок */
+.my-btn {
+  margin-right: 5px;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  border: none;
+  background: rgb(20, 135, 201);
+  color: rgb(250, 250, 250);
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+  font-weight: lighter; /* Тоньше */
+  font-family: 'Times New Roman', serif, monospace;
+  text-align: center; /* Выровнять текст по центру */
+}
+
+/* Стиль для кнопок при наведении */
+.my-btn:hover {
+  background: rgb(41, 176, 255);
+}
+
+/* Стиль для кнопок при активации */
+.my-btn:active {
+  filter: brightness(130%);
+}
+
+/* Стиль для основных операций */
+.my-btn.primary {
+  background: rgb(255, 87, 15); /* Измененный цвет */
+}
+
+/* Стиль для второстепенных операций */
+.my-btn.secondary {
+  background: rgb(255, 87, 15);
+}
+
+/* Стиль для кнопки "=" */
+.my-btn.execute {
+  width: 110px;
+  border-radius: 10px;
+  text-align: center; /* Выровнять текст по центру */
+}
+
+/* Стиль для кнопки смены темы */
+#btn_theme {
+  margin-right: 10px;
+  background: rgb(20, 135, 201);
+  color: rgb(250, 250, 250);
+  font-size: 1rem;
+  padding: 5px 30px; /* Увеличена ширина */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center; /* Выровнять текст по центру */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стиль для кнопки GitHub */
+#btn_github {
+  margin-right: 10px;
+  background: rgb(20, 135, 201);
+  color: rgb(250, 250, 250);
+  font-size: 1rem;
+  padding: 5px 30px; /* Увеличена ширина */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center; /* Выровнять текст по центру */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стиль для выпадающего списка */
+#dropdown {
+  background: rgb(20, 135, 201);
+  color: rgb(250, 250, 250);
+  font-size: 1rem;
+  padding: 5px 30px; /* Увеличена ширина */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center; /* Выровнять текст по центру */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Стиль для контейнера кнопок */
+.controls {
+  display: flex;
+  justify-content: center; /* Выровнять элементы по центру */
+  margin-top: 10px;
+}
+
+/* Стиль для подсветки слов */
+.highlight {
+  background-color: rgb(255, 87, 15);
+  color: rgb(250, 250, 250); /* Белый цвет текста */
+}
+
+/* Стиль для нижней надписи */
+.footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.8rem;
+  color: rgb(250, 250, 250); /* Белый цвет */
+  text-align: center;
+  width: 100%;
+}
+
+/* Стиль для блока "Автор" */
+details {
+  color: rgb(250, 250, 250); /* Белый цвет текста */
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+.cvet {
+  color: rgb(250, 250, 250);
+}
