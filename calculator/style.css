@@ -17,7 +17,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 300px;
-  height: 500px; /* Увеличен размер калькулятора */
+  height: 500px; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,7 +145,7 @@ body {
 /* Стиль для подсветки слов */
 .highlight {
   background-color: rgb(255, 87, 15);
-  color: rgb(250, 250, 250); /* Белый цвет текста */
+  color: rgb(250, 250, 250);
 }
 
 /* Стиль для нижней надписи */
@@ -153,14 +153,14 @@ body {
   position: absolute;
   bottom: 10px;
   font-size: 0.8rem;
-  color: rgb(250, 250, 250); /* Белый цвет */
+  color: rgb(250, 250, 250);
   text-align: center;
   width: 100%;
 }
 
 /* Стиль для блока "Автор" */
 details {
-  color: rgb(250, 250, 250); /* Белый цвет текста */
+  color: rgb(250, 250, 250);
   text-align: center;
   width: 100%;
   margin-top: 10px;
